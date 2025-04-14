@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alerta Brasil - Desastres Naturais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌪️ Alerta Brasil - Mapa de Desastres</h1>
+  </header>
+  <div class="container">
+    <div class="alertas">
+      <h2>Marque um alerta:</h2>
+      <button onclick="adicionarAlerta('terremoto')">Terremoto</button>
+      <button onclick="adicionarAlerta('enchente')">Enchente</button>
+      <button onclick="adicionarAlerta('incendio')">Incêndio</button>
+    </div>
+    <div id="mapa"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
