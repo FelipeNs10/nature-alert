@@ -21,3 +21,5 @@ Antes de começar, você vai precisar ter as seguintes ferramentas instaladas na
 1. Clone o repositório:
    ```bash
    git clone https://github.com/FelipeNs10/nature-alert.git
+
+![image](https://github.com/user-attachments/assets/ac7562ee-bb5f-42f4-8c42-560cf30f1740)
